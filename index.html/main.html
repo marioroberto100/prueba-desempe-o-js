@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD OPERATIONS</title>
+  <link rel="stylesheet" href="../index.css/styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>CRUD OPERATIONS</h2>
+    <div class="profile">
+      <img src="./assets/pexels-photo-1681010 1@3x.png" alt="Admin Photo" />
+      <p class="name">Random guy</p>
+      <p class="role">Admin</p>
+    </div>
+    <nav class="menu">
+      <a href="#" class="menu-item active">🏠 Home</a>
+      <a href="#" class="menu-item">📑 Events</a>
+      <a href="#" class="menu-item">🎓 Users</a>
+      <a href="#" class="menu-item">💳 Payment</a>
+     
+      
+    </nav>
+    <a href="#" class="logout">Logout ⤴️</a>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <!-- Header -->
+    <header class="top-header">
+      <h1>Students List</h1>
+      <div class="header-actions">
+        <input type="search" placeholder="Search..." />
+        <button class="add-btn" id="addBtn">ADD NEW EVENT</button>
+      </div>
+    </header>
+
+    <!-- Table -->
+    <section class="table-section">
+      <table class="user-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>description</th>
+            <th>Capacity</th>
+            <th>Date of admission</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="userTableBody">
+          <!-- Filas dinámicas con JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Modal (hidden by default) -->
+  <div id="userModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal" id="closeModalBtn">&times;</span>
+      <h2 id="modalTitle">Add New Events</h2>
+      <form id="userForm">
+        <input type="hidden" id="userId" />
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="description">description</label>
+          <input type="text" id="description" required />
+        </div>
+        <div class="form-group">
+          <label for="Capacity">capacity</label>
+          <input type="text" id="Capacity" required />
+        </div>
+        <div class="form-group">
+          <label for="dateOfAdmission">Date</label>
+          <input type="date" id="dateOfAdmission" required />
+        </div>
+        <button type="submit" class="submit-btn">Save</button>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="../index.js/main.js"></script>
+</body>
+</html>
+
+
+

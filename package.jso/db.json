@@ -1,0 +1,28 @@
+{
+  "eventos": [
+    {
+      "id": "656a",
+      "name": "dda",
+      "description": "ada",
+      "Capacity": "12",
+      "dateOfAdmission": "2222-02-22"
+    },
+    {
+      "id": "8caa",
+      "name": "ddads",
+      "description": "dasdda",
+      "Capacity": "18",
+      "dateOfAdmission": "1222-02-21"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Admin",
+      "email": "admin@curso.com",
+      "password": "admin123",
+      "rol": "admin"
+
+    }
+  ]
+}
