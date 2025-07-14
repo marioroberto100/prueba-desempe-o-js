@@ -1,11 +1,11 @@
 {
   "eventos": [
     {
-      "id": "656a",
-      "name": "dda",
+      "name": "sdadda",
       "description": "ada",
       "Capacity": "12",
-      "dateOfAdmission": "2222-02-22"
+      "dateOfAdmission": "2222-02-22",
+      "id": "656a"
     },
     {
       "id": "8caa",
@@ -13,16 +13,29 @@
       "description": "dasdda",
       "Capacity": "18",
       "dateOfAdmission": "1222-02-21"
+    },
+    {
+      "id": "6daa",
+      "name": "dsd",
+      "description": "adsdad",
+      "Capacity": "22",
+      "dateOfAdmission": "21212-12-11"
+    },
+    {
+      "id": "6599",
+      "name": "dda",
+      "description": "dasda",
+      "Capacity": "12112",
+      "dateOfAdmission": "0121-02-12"
     }
   ],
-  "users": [
+  "usuarios": [
     {
       "id": "1",
       "nombre": "Admin",
       "email": "admin@curso.com",
       "password": "admin123",
       "rol": "admin"
-
     }
   ]
 }

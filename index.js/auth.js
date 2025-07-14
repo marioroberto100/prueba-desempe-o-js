@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/users";
+const API = "http://localhost:3000/usuarios";
 
 function loginInit() {
   document.getElementById("login-form").addEventListener("submit", async (e) => {
